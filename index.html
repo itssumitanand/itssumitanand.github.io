@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit Anand</title>
+    <!-- Font Awesome CDN for fast-loading icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #000000, #434343); /* Black gradient background */
+            color: #fff; /* White text for better contrast */
+        }
+        .container {
+            width: 60%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(222, 255, 253, 0.78); /* Semi-transparent white background */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            color: #333; /* Dark text for content */
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 48px; /* Larger font size for name */
+            background: linear-gradient(135deg, #007bff, #00bfff); /* Gradient for name */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+        }
+        header p {
+            font-size: 18px;
+            margin: 5px 0;
+            color: #555; /* Dark gray for subtext */
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            font-size: 24px;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            color: #007bff; /* Blue for section headers */
+        }
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li {
+            margin: 10px 0;
+        }
+        .progress-bar {
+            height: 20px;
+            border-radius: 10px;
+            width: 100%;
+            background-color: #e0e0e0;
+            overflow: hidden;
+        }
+        .progress-bar span {
+            display: block;
+            height: 100%;
+            border-radius: 10px;
+        }
+        .progress-bar .html {
+            width: 9%;
+            background-color: #e44d26;
+        }
+        .progress-bar .css {
+            width: 11%;
+            background-color: #2965f1;
+        }
+        .progress-bar .javascript {
+            width: 20%;
+            background-color: #f0db4f;
+        }
+        .progress-bar .python {
+            width: 36%;
+            background-color: #3776ab;
+        }
+        .progress-bar .php {
+            width: 2%;
+            background-color: #4f5b93;
+        }
+        .progress-bar .sql {
+            width: 25%;
+            background-color: #00758f;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Space between icons */
+        }
+        .contact-info a {
+            color: #000;
+            text-decoration: none;
+            font-size: 24px; /* Larger icons */
+            transition: color 0.3s ease;
+        }
+        .contact-info a:hover {
+            color: #0056b3; /* Default hover color */
+        }
+        .contact-info a[href*="linkedin"]:hover {
+            color: #0a66c2; /* LinkedIn brand color */
+        }
+        .contact-info a[href*="instagram"]:hover {
+            color: #e4405f; /* Instagram brand color */
+        }
+        .contact-info a[href*="facebook"]:hover {
+            color: #1877f2; /* Facebook brand color */
+        }
+        .contact-info a[href*="twitter"]:hover {
+            color: #000000; /* X (Twitter) brand color */
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 16px;
+            color: #007bff; /* Blue text for footer */
+            font-style: italic; /* Italic text for footer */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sumit Anand</h1>
+            <p>Email: itssumitanand@outlook.com</p>
+        </header>
+
+        <div class="section objective">
+            <h2>Objective</h2>
+            <p>Aspiring software developer with a strong interest in programming. Currently focused on learning and improving skills in Python, PHP, SQL, HTML, CSS, and JavaScript. Looking for opportunities to apply my skills and gain hands-on experience in a variety of fields within software development and technology.</p>
+        </div>
+
+        <div class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML
+                    <div class="progress-bar">
+                        <span class="html"></span>
+                    </div>
+                </li>
+                <li>CSS
+                    <div class="progress-bar">
+                        <span class="css"></span>
+                    </div>
+                </li>
+                <li>JavaScript
+                    <div class="progress-bar">
+                        <span class="javascript"></span>
+                    </div>
+                </li>
+                <li>Python
+                    <div class="progress-bar">
+                        <span class="python"></span>
+                    </div>
+                </li>
+                <li>PHP
+                    <div class="progress-bar">
+                        <span class="php"></span>
+                    </div>
+                </li>
+                <li>SQL
+                    <div class="progress-bar">
+                        <span class="sql"></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section contact">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <a href="https://www.linkedin.com/in/itssumitanand" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/iamsumitanand" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/itssumitanand" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://twitter.com/itssumitanand" target="_blank">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="section personal-projects">
+            <h2>Personal Projects</h2>
+            <p>I am actively working on various projects to enhance my skills, including:</p>
+            <ul>
+                <li>Building basic Python programs to automate tasks and solve problems.</li>
+                <li>Developing small applications using PHP and SQL for managing databases.</li>
+                <li>Creating websites with HTML, CSS, and JavaScript to understand front-end development.</li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>Currently focused on expanding my skills.</p>
+        </footer>
+    </div>
+</body>
+</html>
